@@ -91,6 +91,13 @@ header a:hover{
     display: block;
   }
 
+  header{
+    position: fixed;
+    top:0;
+    z-index: 10;
+    opacity: 0.9;
+  }
+
   header ul{
     position: fixed;
     width: 100%;
@@ -107,6 +114,7 @@ header a:hover{
     display: block;
     margin: 50px 0;
     line-height: 30px;
+    font-weight: bolder;
   }
 
   #check:checked ~ ul{

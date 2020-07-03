@@ -2,7 +2,7 @@
 	.welcome-text {
 	    top: 15%;
 	    font-size: 20px;
-	}
+  }
 
   .lesson {
     width: 100%;
@@ -12,8 +12,8 @@
 @media all and (max-width: 1000px) {
 	.welcome-text {
 	    top: 22%;
-	    font-size: 36px;
-	}
+      font-size: 36px;
+  }
 
   .lesson {
     width: 50%;
